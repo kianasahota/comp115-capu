@@ -16,15 +16,15 @@ Understanding the following three examples is beneficial for you to move to the 
 """
 
 # Example 1 - Draw 10 steps with each step 20 pixels by 20 pixels.
-num_steps = 10
-alex = turtle.Turtle()
-alex.speed(5)  # 1 sets the drawing speed as the slowest.
-for _ in range(num_steps): # _ means this loop variable is unused, just repeat loop body num_steps times
-    alex.forward(20) # 20 pixels
-    alex.left(90) # Angle
-    alex.forward(20)
-    alex.right(90)
-alex.shape("blank")  # After drawing, make the alex/pen/brush invisible.
+# num_steps = 10
+# alex = turtle.Turtle()
+# alex.speed(5)  # 1 sets the drawing speed as the slowest.
+# for _ in range(num_steps): # _ means this loop variable is unused, just repeat loop body num_steps times
+#     alex.forward(20) # 20 pixels
+#     alex.left(90) # Angle
+#     alex.forward(20)
+#     alex.right(90)
+# alex.shape("blank")  # After drawing, make the alex/pen/brush invisible.
 
 
 # Example 2 - Draw an equilateral triangle with side length 100 pixels
